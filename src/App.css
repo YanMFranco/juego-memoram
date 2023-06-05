@@ -1,0 +1,7 @@
+body{
+    background-color: black;
+}
+
+div:focus{
+    display: none !important;
+}
