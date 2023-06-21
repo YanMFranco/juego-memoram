@@ -69,7 +69,7 @@ function App() {
     if (
       baraja.filter((carta) => !carta.fueAdivinada).length === 0
     ) {
-      alert(`Ganaste en ${baraja.numeroDeIntentos} intentos!`);
+      alert(`Ganaste en ${estado.numeroDeIntentos} intentos!`);
     }
   }
 
